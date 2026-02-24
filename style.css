@@ -23,7 +23,7 @@
 }
 
 .menu {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: Poppins;
   color: #344e41;
   cursor: pointer;
@@ -217,7 +217,7 @@ main {
 /* Footer */
 
 footer {
-  background-color: #d4cbbd;
+  background-color: #fcfaf6;
   font-family: Inter;
 }
 
