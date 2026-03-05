@@ -219,6 +219,12 @@ main {
   background-color: #a3b18a;
 }
 
+.product-card .image-wrapper.udsolgt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 /* Footer */
 
 footer {
