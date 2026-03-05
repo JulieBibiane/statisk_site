@@ -226,7 +226,46 @@ main {
   background-color: rgba(0, 0, 0, 0.4);
 }
 /* Footer */
+footer {
+  background-color: #344e41;
+  font-family: Poppins;
+  color: #dad7cd;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 60px 40px;
+}
 
+footer h4 {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #a3b18a;
+}
+
+footer p,
+footer a {
+  display: block;
+  font-size: 0.85rem;
+  color: #dad7cd;
+  text-decoration: none;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+footer a:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  background-color: #2e2e2e;
+  text-align: center;
+  padding: 16px 40px;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  color: #777;
+}
 footer {
   background-color: #fcfaf6;
   font-family: Inter;
