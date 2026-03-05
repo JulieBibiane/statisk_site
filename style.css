@@ -13,6 +13,7 @@
   align-items: center;
   padding: 20px 40px;
   border-bottom: #2e2e2e;
+  font-family: Poppins;
 }
 
 .logo {
@@ -20,6 +21,10 @@
   font-family: Poppins;
   color: #344e41;
   letter-spacing: 1px;
+}
+
+.logo {
+  text-decoration: none;
 }
 
 .menu {
